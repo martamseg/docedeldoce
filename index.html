@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v6.2.0/css/all.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;500;800&display=swap" rel="stylesheet">
+
     <title>Página web personal</title>
 </head>
 
@@ -17,7 +18,7 @@
     <nav class="navbar">
         <div class="container">
             <div class="logo">Marta Martinez</div>
-            <ul class="nav">
+            <ul class="navbar">
                 <li><a href="#sobremi">Sobre mi</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
@@ -25,8 +26,8 @@
             </ul>
         </div>
     </nav>
-    <header class="mainheader">
-        <a id="sobremi"></a>
+    <header class="mainheader sobremi">
+        <!-- <a id="sobremi"></a> -->
         <div class="container">
             <div class="showcase">
                 <h1>
@@ -43,23 +44,28 @@
         </div>
     </header>
 
-    <div class="container">
-        <a id="habilidades"></a>
+    <div class="container" id="habilidades">
+        <!-- <a id="habilidades"></a> -->
         <h2>My Skills</h2>
-        <h5>Web development and design</h5>
+        <h3>Web development and design</h3>
 
         <section class="flex-container">
             <div class="divskills">
                 <p class="mylabel"><i class="fa-brands fa-html5"></i><label for="file"> HTML5 </label>
-                    <progress id="file" value="82" max="100"> 82% </progress></p>
+                    <progress id="file" value="82" max="100"> 82% </progress>
+                </p>
                 <p class="mylabel"><i class="fa-brands fa-css3-alt"></i><label for="file"> CSS3 </label>
-                    <progress id="file" value="100" max="100"> 100% </progress></p>
+                    <progress id="file" value="100" max="100"> 100% </progress>
+                </p>
                 <p class="mylabel"><i class="fa-brands fa-square-js"></i><label for="file"> JS </label>
-                    <progress id="file" value="82" max="100"> 82% </progress></p>
+                    <progress id="file" value="82" max="100"> 82% </progress>
+                </p>
                 <p class="mylabel"><i class="fa-brands fa-php"></i><label for="file"> PHP </label>
-                    <progress id="file" value="82" max="100"> 82% </progress></p>
+                    <progress id="file" value="82" max="100"> 82% </progress>
+                </p>
                 <p class="mylabel"><i class="fa-brands fa-sass"></i><label for="file"> SASS </label>
-                    <progress id="file" value="50" max="100"> 50% </progress></p>
+                    <progress id="file" value="50" max="100"> 50% </progress>
+                </p>
             </div>
             <img class="img-skilldere" src="https://www.nicmexico.mx/wp-content/uploads/2018/09/portada4.png" alt="code"
                 title="Código">
@@ -71,18 +77,126 @@
             <div class="divskills">
 
                 <p class="mylabel"><i class="fa-brands fa-figma"></i><label for="file"> Figma </label>
-                    <progress id="file" value="82" max="100"> 82% </progress></p>
+                    <progress id="file" value="82" max="100"> 82% </progress>
+                </p>
                 <p class="mylabel"><i class="fa-solid fa-photo-film"></i><label for="file"> Adobe Suite </label>
-                    <progress id="file" value="100" max="100"> 100% </progress></p>
+                    <progress id="file" value="100" max="100"> 100% </progress>
+                </p>
                 <p class="mylabel"><i class="fa-solid fa-palette"></i><label for="file"> UI design </label>
-                    <progress id="file" value="82" max="100"> 82% </progress></p>
+                    <progress id="file" value="82" max="100"> 82% </progress>
+                </p>
                 <p class="mylabel"><i class="fa-solid fa-vial"></i><label for="file"> UX design </label>
-                    <progress id="file" value="82" max="100"> 82% </progress></p>
+                    <progress id="file" value="82" max="100"> 82% </progress>
+                </p>
                 <p class="mylabel"><i class="fa-solid fa-video"></i><label for="file"> Video </label>
-                    <progress id="file" value="50" max="100"> 50% </progress></p>
+                    <progress id="file" value="50" max="100"> 50% </progress>
+                </p>
             </div>
 
         </section>
+
+        <!-- SECCIÓN PORTFOLIO PROYECTOS -->
+        <section id="portfolio">
+            <div class="portfolio-title">
+                <h2>My portfolio</h2>
+                <h3>Personal and professional projects</h3>
+            </div>
+
+            <div class="project-cards">
+                <div class="card-img">
+                    <img src="https://cdn.pixabay.com/photo/2013/07/27/05/13/lighthouse-168132_960_720.jpg" alt="">
+                    <div class="card-body">
+                        <h1>Project 1</h1>
+                        <p>Va usté muy cargadoo al ataquerl diodeno no puedor a wan no te digo trigo por no llamarte
+                            Rodrigor te voy
+                            a borrar el cerito la caidita</p>
+                        <a href="#">Find out more</a>
+                    </div>
+                </div>
+
+                <div class="card-img">
+                    <img src="https://cdn.pixabay.com/photo/2020/04/22/08/06/dolomites-5076487_960_720.jpg" alt="">
+                    <div class="card-body">
+                        <h1>Project 1</h1>
+                        <p>Va usté muy cargadoo al ataquerl diodeno no puedor a wan no te digo trigo por no llamarte
+                            Rodrigor te voy
+                            a borrar el cerito la caidita</p>
+                        <a href="#">Find out more</a>
+                    </div>
+                </div>
+
+                <div class="card-img">
+                    <img src="https://cdn.pixabay.com/photo/2017/05/19/15/16/countryside-2326787_960_720.jpg" alt="">
+                    <div class="card-body">
+                        <h1>Project 1</h1>
+                        <p>Va usté muy cargadoo al ataquerl diodeno no puedor a wan no te digo trigo por no llamarte
+                            Rodrigor te voy
+                            a borrar el cerito la caidita</p>
+                        <a href="#">Find out more</a>
+                    </div>
+                </div>
+
+                <div class="card-img">
+                    <img src="https://cdn.pixabay.com/photo/2017/11/02/03/42/skybuilding-2910068_960_720.jpg" alt="">
+                    <div class="card-body">
+                        <h1>Project 1</h1>
+                        <p>Va usté muy cargadoo al ataquerl diodeno no puedor a wan no te digo trigo por no llamarte
+                            Rodrigor te voy
+                            a borrar el cerito la caidita</p>
+                        <a href="#">Find out more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN DE CONTACTO -->
+        <section id="contacto">
+            <div class="contact-title">
+                <h2>have a web design project in mind?</h2>
+                <h3>Lest's discuss it over a coffee!<h3>
+            </div>
+            <div class="contact">
+                <div class="contact-left">
+                    <img src="https://cdn.pixabay.com/photo/2016/07/23/03/56/love-1536226_960_720.jpg"
+                        alt="take a coffee">
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <div class="input-group ">
+                            <label for=""> First Name </label>
+                            <input type="text">
+
+                            <label for=""> Last Name </label>
+                            <input type="text">
+                        </div>
+                        <div class="input-group">
+                            <label for="email"> Email address </label>
+                            <input class="email" type="mail">
+                        </div>
+                        <div class="input-group">
+                            <label for="message">Message</label>
+                            <textarea rows="4"></textarea>
+                        </div>
+                        <button type="submit">Submit </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <hr />
+
+        <!-- FOOTER -->
+        <section id="footer">
+            <h1><span>Marta</span> Martínez</h1>
+            <p>Legal Notice</p>
+            <div class="icons">
+                <i class="fa-brands fa-linkedin "></i>
+                <i class="fa-brands fa-square-instagram "></i>
+                <i class="fa-brands fa-twitter "></i>
+            </div>
+
+        </section>
+
+
     </div>
 
 </body>
